@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: left;
+  background-color: #a5a5a5;
+}
+
+/* all button class*/
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  background-color: #ffffff
+}
+
+.red-button {
+  background-color:red
+}
+
+.red-button:hover {
+  background-color: crimson
+}
+

@@ -18,10 +18,16 @@
   </head>
 
   <body>
-    <h1>A Colorful Adventure</h1>
+    <h1>Incremental Colors</h1>
+
     <button onclick="gainRed()" class="btn red-button"><span id="red-counter">0</span></button>
-    <button onclick="buyRedPerClick()" class="btn red-button"><span id="red-upgrade">[1] -- 25</span></button>
-    <button id="restart-button">Restart the Game (Clear Save)</button>
+    <button onclick="buyRedPerClick()" class="btn red-button"><span id="red-upgrade">[1] -- 25 Red</span></button>
+    <button onclick="buyRedPerSecond()" class="btn red-button"><span id="red-auto">[0] -- 100 Orange</span></button>
+
+    <button onclick="gainOrange()" class="btn orange-button"><span id="orange-counter">0</span></button>
+    <button onclick="buyOrangePerClick()" class="btn orange-button"><span id="orange-upgrade">[1] -- 25 Orange</span></button>
+
+    <button id="restart-button" class="btn">Restart the Game (Clear Save)</button>
     <script src="scripts/main.js" charset="utf-8" type="text/javascript" defer></script>
   </body>
 

@@ -4,19 +4,51 @@ body {
   background-color: #a5a5a5;
 }
 
-/* all button class*/
+/*---Buttons---*/
+
 .btn {
   padding: 10px 20px;
   font-size: 16px;
   margin-top: 20px;
-  background-color: #ffffff
+  background-color: #ffffff;
+  transition: all 0.2s ease;
+  overflow: hidden; /* Ensures the button doesn't grow outside its bounds */
+  display: inline-flex; /* Keeps the button content aligned correctly */
+  justify-content: center; /* Centers the text */
+  align-items: center; /* Vertically aligns text */
 }
 
+
+/*---Clicking Effects---*/
+
+/*Enlarge the font without changing other buttons*/
+
+.btn span{
+  transition: transform 0.2s ease-in
+}
+
+.btn:active span{
+  transform: scale(1.5);
+}
+
+/*---Colorful Buttons---*/
+
 .red-button {
-  background-color:red
+  background-color:red;
+  transition: opacity 0.5s ease
 }
 
 .red-button:hover {
-  background-color: crimson
+  opacity: 0.8;
+}
+
+.orange-button {
+  background-color: orange;
+  transition: opacity 0.5s ease;
+  visibility: hidden;
+}
+
+.orange-button:hover {
+  opacity: 0.8;
 }
 

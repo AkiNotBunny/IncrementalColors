@@ -6,3 +6,5 @@ The sky above is not blue, but a swirl of faint hues, twisting in ever-changing 
 The ground beneath your boots pulses with energy, vibrant patches of color peeking through cracks in the soil like the veins of a living creature.
 
 [This](https://akinotbunny.github.io/IncrementalColors/) is your world now—a place where color is not just light, but life itself.
+
+Current Version: V0.0.4
